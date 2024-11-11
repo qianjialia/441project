@@ -1,0 +1,274 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0; 
+    line-height: 1.6;  
+}  
+section{
+    height: 600px;
+    width: 1500px;
+}
+
+header, footer {  
+    background-color: #333;  
+    color: #fff;  
+    text-align: center;  
+    padding: 1em 0;  
+}  
+  
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+    background-color: #666;  
+    text-align: center;  
+}  
+  
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+  
+nav ul li a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 10px 20px;  
+    display: inline-block;  
+}  
+  
+nav ul li a:hover {  
+    background-color: #888;  
+}  
+  
+section {  
+    padding: 20px;  
+    margin: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 8px;  
+}  
+.main-content1 {  
+    float: left; /* Make the content float to the left (if needed) */  
+    padding: 10px; /* Add some padding */  
+    box-sizing: border-box; /* Make sure that padding and border don't increase the width of the element */  
+  }
+form label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+  
+form input[type="text"],  
+form input[type="email"],  
+form input[type="tel"],  
+form select {  
+    width: 100%;  
+    padding: 8px;  
+    margin-bottom: 10px;  
+    box-sizing: border-box;  
+}  
+  
+form input[type="submit"] {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #d808ef;}
+    /*About Us Style*/
+#about-us {  
+     
+    padding: 20px;  
+    background-color: white;  
+    margin: 20px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    
+}  
+.right-image {  
+    float: right; /*Float the image to the right*/ 
+    margin-left: 20px; /*Add some spacing between images and text*/
+    /*You can also add styles such as width and height to control the size of the image*/
+    width: 300px; /*Example width*/ 
+    height: auto; /*Maintain the original aspect ratio of the image*/ 
+}  
+#about-us h2 {  
+    
+    color: #007BFF;  
+    text-align: center;  
+}  
+  
+#about-us p, #about-us ul {  
+     
+    line-height: 1.6;  
+}  
+  
+
+  
+/*Responsive design*/
+@media (max-width: 768px) {  
+    nav ul {  
+        padding: 0;  
+        
+    }  
+  
+    nav ul li {  
+        display: block;  
+        text-align: center;  
+    }  
+}
+.container2 {  
+    width: 80%;  
+    margin: auto;  
+    overflow: hidden;  
+    text-align: center;  
+}  
+  
+.courseware-list {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-around;  
+}  
+  
+.courseware-item {  
+    width: 45%;  
+    margin-bottom: 20px;  
+    background-color: #f4f4f4;  
+    padding: 15px;  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}  
+  
+.kit-image {  
+    float: right;  
+    margin-left: 50px;  
+    width: 200px;  
+    height: auto;  
+}  
+  
+.courseware-item h2 {  
+    margin-top: 0;  
+}  
+  
+.order-button {  
+    display: inline-block;  
+    background-color: #0d98e8;  
+    color: white;  
+    padding: 10px 20px;  
+    margin-top: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    text-align: center;  
+}  
+  
+.order-button:hover {  
+    background-color: #9cec07;  
+}  
+.project {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+  
+.project-image {  
+    width: 30%;  
+    height: auto;  
+    margin-right: 20px;  
+    border-radius: 8px;  
+}  
+  
+.project-details {  
+    flex-grow: 1;  
+}  
+  
+.project-details h2 {  
+    margin: 0 0 10px 0;  
+}  
+.container3 {  
+    width: 100%;  
+    max-width: 400px;  
+    margin: 50px auto;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}  
+
+form {  
+    margin-top: 20px;  
+}  
+  
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+  
+input[type="text"], input[type="email"], input[type="password"] {  
+    width: 100%;  
+    padding: 8px;  
+    margin-bottom: 10px;  
+    box-sizing: border-box;  
+}  
+  
+button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+}  
+  
+button:hover {  
+    background-color: #0056b3;  
+}
+.container4 {  
+    max-width: 600px;  
+    margin: 0 auto;  
+    padding: 20px;  
+}  
+  
+#cartDisplay, #checkoutDisplay {  
+    margin-top: 20px;  
+    border: 1px solid #ccc;  
+    padding: 10px;  
+}  
+  
+#cartDisplay ul, #checkoutDisplay ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+#cartDisplay li, #checkoutDisplay li {  
+    margin-bottom: 5px;  
+}
+/* Page-specific styles */
+.page-name,
+.image-section,
+.registration-form {
+    text-align: center; 
+}
+
+.image-section img,
+.project img,
+.image-section-about img,
+.image-section-home img {
+    display: block;
+    margin: 0 auto; 
+}
+
+.course-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 20%;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.course button,
+.registration-form input[type="button"],
+.registration-form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
